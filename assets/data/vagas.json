@@ -5,6 +5,7 @@
         "cargo": "Desenvolvedor Front-End Júnior",
         "senioridade": "Júnior",
         "modalidade": "Híbrido",
+        "localizacao": "Vitória - ES",
         "salario": "R$ 3.800",
         "requisitos": [
             "Lógica de Programação",
@@ -20,7 +21,8 @@
         "empresa": "Dev Studios",
         "cargo": "Desenvolvedor React Júnior",
         "senioridade": "Júnior",
-        "modalidade": "Home Office",
+        "modalidade": "Remoto",
+        "localizacao": "Remoto (Global)",
         "salario": "R$ 4.500",
         "requisitos": [
             "JavaScript ES6",
@@ -37,6 +39,7 @@
         "cargo": "Desenvolvedor Front-End Web Júnior",
         "senioridade": "Júnior",
         "modalidade": "Híbrido",
+        "localizacao": "Florianópolis - SC",
         "salario": "R$ 4.200",
         "requisitos": [
             "HTML5",
@@ -54,6 +57,7 @@
         "cargo": "Desenvolvedor Front-End Pleno",
         "senioridade": "Pleno",
         "modalidade": "Remoto",
+        "localizaco": "Remoto (Brasil)",
         "salario": "R$ 7.500",
         "requisitos": [
             "JavaScript ES6",
@@ -71,6 +75,7 @@
         "cargo": "Engenheiro Front-End Sênior",
         "senioridade": "Sênior",
         "modalidade": "Remoto",
+        "localizaco": "Remoto (Global)",
         "salario": "R$ 12.000",
         "requisitos": [
             "JavaScript ES6",
