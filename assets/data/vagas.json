@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "empresa": "Tech Solutions",
-        "cargo": "Desenvolvedor Front-End Júnior",
-        "senioridade": "Júnior",
-        "modalidade": "Híbrido",
-        "localizacao": "Vitória - ES",
-        "salario": "R$ 3.800",
-        "requisitos": [
+        "company": "Tech Solutions",
+        "position": "Desenvolvedor Front-End Júnior",
+        "seniority": "Júnior",
+        "modality": "Híbrido",
+        "location": "Vitória - ES",
+        "salary": "R$ 3.800",
+        "requirements": [
             "Lógica de Programação",
             "HTML5",
             "CSS3",
@@ -18,13 +18,13 @@
     },
     {
         "id": 2,
-        "empresa": "Dev Studios",
-        "cargo": "Desenvolvedor React Júnior",
-        "senioridade": "Júnior",
-        "modalidade": "Remoto",
-        "localizacao": "Remoto (Global)",
-        "salario": "R$ 4.500",
-        "requisitos": [
+        "company": "Dev Studios",
+        "position": "Desenvolvedor React Júnior",
+        "seniority": "Júnior",
+        "modality": "Remoto",
+        "location": "Remoto (Global)",
+        "salary": "R$ 4.500",
+        "requirements": [
             "JavaScript ES6",
             "React",
             "HTML5",
@@ -35,13 +35,13 @@
     },
     {
         "id": 3,
-        "empresa": "CodeFront",
-        "cargo": "Desenvolvedor Front-End Web Júnior",
-        "senioridade": "Júnior",
-        "modalidade": "Híbrido",
-        "localizacao": "Florianópolis - SC",
-        "salario": "R$ 4.200",
-        "requisitos": [
+        "company": "CodeFront",
+        "position": "Desenvolvedor Front-End Web Júnior",
+        "seniority": "Júnior",
+        "modality": "Híbrido",
+        "location": "Florianópolis - SC",
+        "salary": "R$ 4.200",
+        "requirements": [
             "HTML5",
             "CSS3",
             "JavaScript ES6",
@@ -53,13 +53,13 @@
     },
     {
         "id": 4,
-        "empresa": "Innovation Tech",
-        "cargo": "Desenvolvedor Front-End Pleno",
-        "senioridade": "Pleno",
-        "modalidade": "Remoto",
-        "localizacao": "Remoto (Brasil)",
-        "salario": "R$ 7.500",
-        "requisitos": [
+        "company": "Innovation Tech",
+        "position": "Desenvolvedor Front-End Pleno",
+        "seniority": "Pleno",
+        "modality": "Remoto",
+        "location": "Remoto (Brasil)",
+        "salary": "R$ 7.500",
+        "requirements": [
             "JavaScript ES6",
             "TypeScript",
             "React",
@@ -71,13 +71,13 @@
     },
     {
         "id": 5,
-        "empresa": "Global Tech Hub",
-        "cargo": "Engenheiro Front-End Sênior",
-        "senioridade": "Sênior",
-        "modalidade": "Remoto",
-        "localizacao": "Remoto (Global)",
-        "salario": "R$ 12.000",
-        "requisitos": [
+        "company": "Global Tech Hub",
+        "position": "Engenheiro Front-End Sênior",
+        "seniority": "Sênior",
+        "modality": "Remoto",
+        "location": "Remoto (Global)",
+        "salary": "R$ 12.000",
+        "requirements": [
             "JavaScript ES6",
             "TypeScript",
             "React",
