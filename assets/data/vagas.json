@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "empresa": "Tech Solutions",
+        "cargo": "Desenvolvedor Front-End Júnior",
+        "senioridade": "Júnior",
+        "modalidade": "Híbrido",
+        "localizacao": "Vitória - ES",
+        "salario": "R$ 3.800",
+        "requisitos": [
+            "Lógica de Programação",
+            "HTML5",
+            "CSS3",
+            "JavaScript ES6",
+            "Git/GitHub",
+            "CSS Responsive (Flexbox/Grid)"
+        ]
+    },
+    {
+        "id": 2,
+        "empresa": "Dev Studios",
+        "cargo": "Desenvolvedor React Júnior",
+        "senioridade": "Júnior",
+        "modalidade": "Remoto",
+        "localizacao": "Remoto (Global)",
+        "salario": "R$ 4.500",
+        "requisitos": [
+            "JavaScript ES6",
+            "React",
+            "HTML5",
+            "CSS3",
+            "Consumo de APIs REST (Fetch/Async-Await)",
+            "Git/GitHub"
+        ]
+    },
+    {
+        "id": 3,
+        "empresa": "CodeFront",
+        "cargo": "Desenvolvedor Front-End Web Júnior",
+        "senioridade": "Júnior",
+        "modalidade": "Híbrido",
+        "localizacao": "Florianópolis - SC",
+        "salario": "R$ 4.200",
+        "requisitos": [
+            "HTML5",
+            "CSS3",
+            "JavaScript ES6",
+            "TypeScript",
+            "Git/GitHub",
+            "Tailwind CSS",
+            "Testes Unitários (Jest)"
+        ]
+    },
+    {
+        "id": 4,
+        "empresa": "Innovation Tech",
+        "cargo": "Desenvolvedor Front-End Pleno",
+        "senioridade": "Pleno",
+        "modalidade": "Remoto",
+        "localizaco": "Remoto (Brasil)",
+        "salario": "R$ 7.500",
+        "requisitos": [
+            "JavaScript ES6",
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Git/GitHub",
+            "Testes Unitários (Jest)",
+            "Consumo de APIs REST (Fetch/Async-Await)"
+        ]
+    },
+    {
+        "id": 5,
+        "empresa": "Global Tech Hub",
+        "cargo": "Engenheiro Front-End Sênior",
+        "senioridade": "Sênior",
+        "modalidade": "Remoto",
+        "localizaco": "Remoto (Global)",
+        "salario": "R$ 12.000",
+        "requisitos": [
+            "JavaScript ES6",
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Arquitetura de Software",
+            "Git/GitHub",
+            "Tailwind CSS"
+        ]
+    }
+]
