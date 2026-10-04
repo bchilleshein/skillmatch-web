@@ -57,7 +57,7 @@
         "cargo": "Desenvolvedor Front-End Pleno",
         "senioridade": "Pleno",
         "modalidade": "Remoto",
-        "localizaco": "Remoto (Brasil)",
+        "localizacao": "Remoto (Brasil)",
         "salario": "R$ 7.500",
         "requisitos": [
             "JavaScript ES6",
@@ -75,7 +75,7 @@
         "cargo": "Engenheiro Front-End Sênior",
         "senioridade": "Sênior",
         "modalidade": "Remoto",
-        "localizaco": "Remoto (Global)",
+        "localizacao": "Remoto (Global)",
         "salario": "R$ 12.000",
         "requisitos": [
             "JavaScript ES6",
