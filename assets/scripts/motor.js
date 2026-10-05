@@ -143,8 +143,19 @@ export function createJobCounter() {
 }
 
 export function executeWithCallback(statusMessage, callback) {
-    console.log(statusMessage);
-    if (typeof callback === 'function') {
-        callback();
+    const statusContainer = document.getElementById('status-container');
+    
+    if (statusContainer) {
+        statusContainer.innerHTML = `<p class="state-loading">${statusMessage}</p>`;
     }
+
+    setTimeout(() => {
+        if (statusContainer) {
+            statusContainer.innerHTML = '';
+        }
+        
+        if (typeof callback === 'function') {
+            callback();
+        }
+    }, 2000);
 }
