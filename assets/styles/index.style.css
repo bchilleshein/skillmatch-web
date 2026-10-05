@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333333;
+    line-height: 1.6;
+    padding: 15px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+header h1 {
+    color: #2c3e50;
+    font-size: clamp(28px, 4vw, 40px);
+}
+
+header p {
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.form-section {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 25px;
+}
+
+.form-section h2 {
+    font-size: 21px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-section label {
+    font-weight: 600;
+    color: #34495e;
+    font-size: 14px;
+}
+
+.form-section input[type="text"] {
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.form-section input[type="text"]:focus {
+    border-color: #3498db;
+}
+
+.form-section button {
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.form-section button:hover {
+    background-color: #2980b9;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.counter {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #7f8c8d;
+    text-align: right;
+}
+
+.recommendation-section {
+    background: #eef2f3;
+    border-left: 5px solid #3498db;
+    padding: 18px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.recommendation-section h2 {
+    font-size: 18px;
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+
+#recommendation-container p {
+    font-size: 15px;
+    color: #2c3e50;
+}
+
+.results-section h2 {
+    font-size: 21px;
+    color: #2c3e50;
+    margin-bottom: 12px;
+}
+
+.cards-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.job-card {
+    background: #fff;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid #bdc3c7;
+}
+
+.job-card h3 {
+    color: #2c3e50;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.job-card p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555555;
+}
+
+.match-badge {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.skills-ok {
+    color: #27ae60;
+    font-weight: 500;
+}
+
+.skills-missing {
+    color: #c0392b;
+    font-weight: 500;
+}
+
+.job-card.high-match {
+    border-left-color: #2ecc71;
+}
+
+.job-card.medium-match {
+    border-left-color: #f1c40f;
+}
+
+.job-card.low-match {
+    border-left-color: #e74c3c;
+}
+
+.state-loading {
+    color: #2980b9;
+    font-style: italic;
+    padding: 10px 0;
+}
+
+.state-empty {
+    color: #d35400;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.state-error {
+    color: #c0392b;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 30px;
+    }
+
+    .form-section {
+        padding: 25px;
+    }
+
+    .cards-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .job-card {
+        flex: 1 1 calc(50% - 15px);
+    }
+}
+
+footer {
+    text-align: center;
+}
