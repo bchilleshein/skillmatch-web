@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recrutando Você - Análise de Compatibilidade de Vagas</title>
+    <meta name="description" content="Plataforma interativa para análise de compatibilidade de competências com vagas de tecnologia e recomendações de estudo personalizadas.">
+    <link rel="stylesheet" href="./assets/styles/index.style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="./assets/img/logo.svg" alt="Logotipo corporativo da Recrutando Você" width="100" height="100">
+            <h1>Recrutando Você</h1>
+        </div>
+        <p>Analise a sua compatibilidade com vagas de tecnologia e descubra o que estudar.</p>
+    </header>
+
+    <main class="container">
+        <section class="form-section" aria-labelledby="form-title">
+            <h2 id="form-title">Perfil do Candidato</h2>
+            <form id="match-form" novalidate>
+                <div class="input-group">
+                    <label for="candidate-name">Nome Completo*: </label>
+                    <input type="text" id="candidate-name" placeholder="Ex: João da Silva" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="candidate-area">Área de Interesse*: </label>
+                    <input type="text" id="candidate-area" placeholder="Ex: Front-End Júnior" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="candidate-experience">Anos de Experiência*: </label>
+                    <input type="text" id="candidate-experience" inputmode="decimal" placeholder="Ex: 1 ou 1,5" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="candidate-skills">Competências (separadas por vírgula)*: </label>
+                    <input type="text" id="candidate-skills" placeholder="Ex: HTML5, CSS3, JavaScript, React" required>
+                </div>
+
+                <div id="form-error" class="error-message" aria-live="polite"></div>
+
+                <button type="submit">Analisar Vagas</button>
+            </form>
+            <div id="counter-display" class="counter">Análises realizadas: 0</div>
+        </section>
+
+        <section class="recommendation-section" aria-labelledby="rec-title">
+            <h2 id="rec-title">Recomendação de Estudo</h2>
+            <div id="recommendation-container">
+                <p>Insira as suas competências acima para receber recomendações personalizadas.</p>
+            </div>
+        </section>
+
+        <section class="results-section" aria-labelledby="results-title">
+            <h2 id="results-title">Vagas Analisadas</h2>
+            <div id="status-container" aria-live="polite"></div>
+            <div id="results-container" class="cards-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Recrutando Você.</p>
+    </footer>
+
+    <script type="module" src="./assets/scripts/main.js"></script>
+</body>
+</html>
