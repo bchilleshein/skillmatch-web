@@ -113,6 +113,6 @@ skillmatch-web/
 
 ## Links
 
-* **Vídeo de Apresentação:** 
+* **Vídeo de Apresentação:** https://trello.com/c/OzzfxdeU/16-https-wwwloomcom-share-b7864ee352f44180b7e4091902e541e5
 
 * **Quadro Kanban de Tarefas:** https://trello.com/invite/b/6ac2971f33d41d57698052f5/ATTI1783ee0993cecdb87f7f63e18191cf07A790FDCD/skillmatch-web-p2
